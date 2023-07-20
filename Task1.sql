@@ -21,7 +21,7 @@ CREATE TABLE  NewPhonebook
 (PhoneNumber INT,
   UserName VARCHAR(50),
   UserNumber INT,Email VARCHAR(50), Company VARCHAR(50),
-  )
+)
 
 INSERT INTO NewPhonebook SELECT * FROM PhoneBook;
 
